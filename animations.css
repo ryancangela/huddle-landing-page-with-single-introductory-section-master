@@ -1,0 +1,53 @@
+/* css animations*/
+#logo {
+  animation: logo-fade 700ms linear;
+}
+
+@keyframes logo-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate__fadeInLeft,
+.animate__fadeInRight {
+  animation-delay: 500ms;
+  transition: all;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+.animate__flipInX {
+  animation-delay: 1500ms;
+  transition: all;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+.socialOne {
+  animation-delay: 750ms;
+  transition: all;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.socialTwo {
+  animation-delay: 850ms;
+  transition: all;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.socialThree {
+  animation-delay: 950ms;
+  transition: all;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+.animate__zoomIn {
+  animation-delay: 3s;
+  transition: all;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+}
