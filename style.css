@@ -270,7 +270,9 @@ footer {
   }
   .flex-grid {
     margin-top: 4vh;
+    width: 100%;
   }
+
   .info-area h1 {
     font-size: 2.6rem;
   }
@@ -354,7 +356,7 @@ footer {
   }
 }
 /* 1100px and smaller (mobile) */
-@media only screen and (max-width: 1100px) {
+@media only screen and (min-width: 200px) and (max-width: 1100px) {
   body {
     height: 57vh;
     width: 98vw;
@@ -374,10 +376,15 @@ footer {
     display: block;
     margin-top: 4vh;
   }
-  .info-area {
+  .info-area,
+  .image-area {
     width: 100%;
+    text-align: center !important;
+  }
+  .image-area {
     text-align: center;
   }
+
   .image-area img {
     width: 70%;
     height: auto;
