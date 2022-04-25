@@ -208,6 +208,7 @@ header .logo-wrapper {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  text-align: center;
 }
 .circleMe:hover {
   border: 2px solid #e882e8;
@@ -287,9 +288,10 @@ footer {
   .circleMe {
     border: 2px solid #fff;
     padding: 10px;
-    width: auto;
-    height: auto;
+    width: 26px;
+    height: 26px;
     border-radius: 50%;
+    text-align: center;
   }
   #facebook-f,
   #instagram,
@@ -343,9 +345,10 @@ footer {
   .circleMe {
     border: 2px solid #fff;
     padding: 10px;
-    width: 26px;
-    height: 26px;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
+    text-align: center;
   }
   #facebook-f,
   #instagram,
@@ -435,9 +438,10 @@ footer {
   .circleMe {
     border: 2px solid #fff;
     padding: 10px;
-    width: auto;
-    height: auto;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
+    text-align: center;
   }
   #facebook-f,
   #instagram,
