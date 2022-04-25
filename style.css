@@ -1,5 +1,5 @@
 body {
-  height: 57vh;
+  height: auto;
   width: 98vw;
   background-image: url(./images/bg-desktop.svg);
   background-size: cover;
@@ -8,6 +8,7 @@ body {
   background-color: #674baf;
   margin: 5vh auto;
   overflow: hidden;
+  transition: all 500ms ease-in-out;
 }
 
 header {
@@ -30,13 +31,14 @@ header {
 
 .info-area {
   width: 30vw;
+  transition: all 1s ease-in-out;
 }
 .info-area h1 {
   font-family: "Poppins", sans-serif;
   font-size: 3.6rem;
   font-weight: 600;
   color: #fff;
-  margin: 1.5rem 0;
+  margin: 2.5rem 0;
   line-height: 1.35em;
 }
 
@@ -366,11 +368,17 @@ footer {
     background-size: cover;
     background-color: #674baf;
     margin: 3vh auto;
+    overflow: hidden;
+  }
+
+  header {
+    width: 100%;
   }
   header .logo-wrapper {
     margin: 2vh auto;
     width: 84vw;
   }
+
   #logo {
     width: 8rem;
   }

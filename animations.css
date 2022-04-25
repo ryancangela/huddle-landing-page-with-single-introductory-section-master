@@ -11,43 +11,35 @@
     opacity: 1;
   }
 }
+.animate__fadeInUp {
+  animation-delay: 600ms;
+  transition: all 1s ease-in-out;
+}
 
 .animate__fadeInLeft,
 .animate__fadeInRight {
-  animation-delay: 500ms;
-  transition: all;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
+  animation-delay: 600ms;
+  transition: all 1s ease-in-out;
 }
 .animate__flipInX {
-  animation-delay: 1500ms;
-  transition: all;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
+  animation-delay: 1700ms;
+  transition: all 1s ease-in-out;
 }
 .socialOne {
-  animation-delay: 750ms;
-  transition: all;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
+  animation-delay: 850ms;
+  transition: all 1s ease-in-out;
 }
 
 .socialTwo {
-  animation-delay: 850ms;
-  transition: all;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
+  animation-delay: 950ms;
+  transition: all 1s ease-in-out;
 }
 
 .socialThree {
-  animation-delay: 950ms;
-  transition: all;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
+  animation-delay: 1050ms;
+  transition: all 1s ease-in-out;
 }
 .animate__zoomIn {
   animation-delay: 3s;
-  transition: all;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-in-out;
+  transition: all 1s ease-in-out;
 }
